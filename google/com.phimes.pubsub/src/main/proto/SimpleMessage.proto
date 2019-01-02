@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SimpleMessage {
+  int32 id = 1;
+  string base64imgString = 2;
+}
+
+option java_package = "com.example.pubsub";
+option java_outer_classname="SimpleMessageProto";
