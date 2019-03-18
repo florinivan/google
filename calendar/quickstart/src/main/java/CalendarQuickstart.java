@@ -96,7 +96,7 @@ public class CalendarQuickstart {
 		String[] recurrence = new String[] { "RRULE:FREQ=DAILY;COUNT=2" };
 		event.setRecurrence(Arrays.asList(recurrence));
 
-		EventAttendee[] attendees = new EventAttendee[] { new EventAttendee().setEmail("loregabypana87@gmail.com") };
+		EventAttendee[] attendees = new EventAttendee[] { new EventAttendee().setEmail("hanadavid93@gmail.comß") };
 		event.setAttendees(Arrays.asList(attendees));
 
 		EventReminder[] reminderOverrides = new EventReminder[] {
